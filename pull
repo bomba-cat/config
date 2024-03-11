@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+#Vim Config
+mkdir vim 2> /dev/null || echo "vim already exists"
+cp $HOME/.vimrc vim/
+
+#Kitty Config
+mkdir kitty 2> /dev/null || echo "kitty already exists"
+cp $HOME/.config/kitty/kitty.conf kitty/
+
+#ZSH Config
+mkdir zsh 2> /dev/null || echo "zsh already exists"
+cp $HOME/.zshrc zsh/
+
+#Bash Config
+mkdir bash 2> /dev/null || echo "bash already exists"
+cp $HOME/.bashrc bash/

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+git add --all
+git commit --all -m "$1"
+git push
