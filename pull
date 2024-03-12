@@ -15,3 +15,5 @@ cp $HOME/.zshrc zsh/
 #Bash Config
 mkdir bash 2> /dev/null || echo "bash already exists"
 cp $HOME/.bashrc bash/
+
+echo "Done!"

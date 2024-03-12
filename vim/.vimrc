@@ -27,6 +27,7 @@ call plug#end()
 
 set nu
 set cursorline
+silent! TroublesomeCommand
 
 " --AutoStart
 
