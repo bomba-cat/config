@@ -1,7 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="af-magic"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
+export EDITOR=vim
 
 # -------Alias
 alias cd..='cd ..'

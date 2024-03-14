@@ -21,6 +21,9 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'derekwyatt/vim-fswitch'
 Plug 'derekwyatt/vim-protodef'
 
+" --Themes
+Plug 'rafi/awesome-vim-colorschemes'
+
 call plug#end()
 
 " --Config
@@ -35,7 +38,7 @@ autocmd VimEnter * NERDTree | wincmd p
 
 " --Colorscheme
 
-colorscheme habamax
+colorscheme alduin
 
 " --Variables
 
@@ -52,3 +55,7 @@ nmap <C-x> :bdelete<CR>
 nmap <C-b> :bnext<CR>
 nmap <C-s> :w<CR>
 nmap <C-t> :terminal<CR>
+nmap <C-Up> <C-w>-
+nmap <C-Down> <C-w>+
+nmap <C-Left> <C-w><
+nmap <C-Right> <C-w>>
